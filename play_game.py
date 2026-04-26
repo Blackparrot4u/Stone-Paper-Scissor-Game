@@ -1,6 +1,6 @@
 import random
 import result
-import util
+import utils
 
 def play():
     options = ["stone", "paper", "scissors"]
