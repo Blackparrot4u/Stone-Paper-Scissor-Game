@@ -1,5 +1,5 @@
 import play_game
-import util
+import utils
 
 def game_menu():
     while True:
@@ -13,7 +13,7 @@ def game_menu():
         if choice == "1":
             play_game.play()
         elif choice == "2":
-            util.show_score()
+            utils.show_score()
         elif choice == "3":
             print("Exiting game...")
             break
